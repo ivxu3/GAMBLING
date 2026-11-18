@@ -1,10 +1,11 @@
 extends Node2D
 
 # Assigns a rarity tier a number. A higher number means it is more common.
-var rarities = {"Common": 1000,
-				"Rare": 500,
-				"Epic": 250,
-				"Legendary": 100}
+var rarities = {"Common": 1410,
+				"Rare": 470,
+				"Epic": 102,
+				"Legendary": 12,
+				"Mythic": 6}
 
 # Initializes RNG instance
 var rng = RandomNumberGenerator.new()

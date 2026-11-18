@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="GAMBLING"
-run/main_scene="uid://bmiraxu4od57d"
+run/main_scene="uid://gnbt6mtwaoad"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
 
 [physics]
 
