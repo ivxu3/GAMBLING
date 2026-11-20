@@ -5,7 +5,7 @@ var rarities = {"Common": 1410,
 				"Rare": 470,
 				"Epic": 102,
 				"Legendary": 12,
-				"Mythic": 6}
+				"Mythical": 6}
 
 # Initializes RNG instance
 var rng = RandomNumberGenerator.new()
