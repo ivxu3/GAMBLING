@@ -9,7 +9,10 @@ func _process(_delta: float) -> void:
 	pass
 
 func _on_roll_button_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://rolling_screen.tscn")
 
 func _on_quit_button_pressed() -> void:
 	get_tree().quit()
+
+func _on_rewards_pressed() -> void:
+	get_tree().change_scene_to_file("res://rewards.tscn")
